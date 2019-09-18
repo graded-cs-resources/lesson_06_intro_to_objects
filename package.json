@@ -12,8 +12,7 @@
     "npm-run-all": "^4.1.5"
   },
   "scripts": {
-    "build": "tsc --build tsconfig.json -v",
-    "test": "echo \"No test specified\" && exit 0",
+    "test": "tsc --build tsconfig.json -v",
     "vscode-serve": "browser-sync -f *.html -f *.js",
     "gitpod-serve": "browser-sync -f *.html -f *.js --no-ui --no-open --listen 0.0.0.0",
     "tsc-watch": "tsc --watch",
