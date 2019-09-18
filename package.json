@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "In this project you can play with the [p5js](p5js.org) library. This library makes it very easy to create and draw on *drawing canvases* on web pages. You can read more about it at p5js.org.",
   "main": "build/index.js",
-  "dependencies": {
-    "p5": "^0.9.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/p5": "^0.9.0",
     "browser-sync": "^2.26.7",
