@@ -5,7 +5,6 @@
     ".theia": true,
     ".gitpod.yml": true,
     "src\\global.d.ts": true,
-    "build": true,
     "favicon.ico": true,
     ".gitignore": true,
     ".eslintrc.js": true,
