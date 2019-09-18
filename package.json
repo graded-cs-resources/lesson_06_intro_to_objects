@@ -12,7 +12,7 @@
     "npm-run-all": "^4.1.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsc",
     "vscode-serve": "browser-sync -f *.html -f *.js",
     "gitpod-serve": "browser-sync -f *.html -f *.js --no-ui --no-open --listen 0.0.0.0",
     "tsc-watch": "tsc --watch",

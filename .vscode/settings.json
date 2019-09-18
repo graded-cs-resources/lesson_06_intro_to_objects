@@ -12,7 +12,6 @@
     ".vscode": true,
     "tsconfig.json": true,
     "tslint.json": true,
-    "package.json": true,
     "node_modules": true
   },
   "liveServer.settings.port": 3000,
