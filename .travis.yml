@@ -1,8 +1,14 @@
 language: node_js
 node_js:  
-  - "0.10"
+  - 10
+cache:
+  directories:
+    - node_modules
 before_install:
   - npm i -g typescript
+before_deploy:
+  - ls
+  - mv .gitignore .gitignore_old
 deploy:
   provider: pages
   skip_cleanup: true
