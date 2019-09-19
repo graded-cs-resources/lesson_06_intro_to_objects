@@ -2,29 +2,29 @@
  *  Before you read the code and start playing, run the code once! You have two options to do this:
  *
  * 1) Press `Cmd-Shift-B` and choose `Build and Serve`. it should build and launch a browser automatically!
+ *  OR (NOT AND DO NOT DO BOTH)
  * 2) Press `Cmd-Shift-B` and choose `tsc watch`. Then press the 'Go Live' button.
  *
  * At any time after this, you should be able to press F5 to launch a special instance
  * of chrome that opens on the correct page and gives you some magic debugging power.
- * It's optional at first, but may come in handy later (or if you forget how to find the page!)
+ * It's optional at first, but will come in handy later (or if you forget how to find the page!)
  *
- *  Once it launches, explore the program. Try holding your mouse down on the screen!
- *  Once you've explored the initial program you are ready to read and edit below.
+ * Once it launches, explore the program. Try holding your mouse down on the screen!
+ * Once you've explored the initial program you are ready to read and edit below.
  */
 
 /* ------IMPORTING FILES ----------
  * Typescript, like many languages, allows us to *import* code from other files.
  */
-
 import { Ball } from "./modules/ball.js";
 
-/* -------- TASK 1 ---------
+/* ========== TASK 1 ==========
  * Hover over the word "Ball" above to learn about the Ball *class*. A class is a way to create
  * our own custom *data types*. We will explore the Ball class code in a while, but for now the hover
  * gives us our key information.
  */
 
-/** Global array of Ball objects, accessible everywhere */
+/** Global array of Ball objects */
 const ball: Ball[] = [];
 
 function setup() {
@@ -51,7 +51,7 @@ function setup() {
    * It is green, and starts out moving right with speed 1 and down with speed 3. */
   ball[2] = new Ball(500, 300, 90, color("green"), 1, 3);
 
-  /* ------------TASK 2 -----------------
+  /* =========== TASK 2 =================
  * Create a fourth ball in the array that starts at position (200,400), has a diameter and color of your choice
  * and a random speed (that is, don't give it a starting speed).
  * As you type, VS Code should help you figure out what each argument means - very helpful!
@@ -61,7 +61,7 @@ function setup() {
 function draw() {
   background("lightgray");
 
-  /* ------------- TASK 3 ----------------
+  /* ===========  TASK 3 ===========
    * Temporarily comment out the line above by adding a // in front of the line (or using
    * the keyboard shortcut CMD-/. Save, then look back at the code (which should reload - if not, try
    * building again). Describe what changes! Then put the comment back in.
@@ -71,7 +71,7 @@ function draw() {
    *
    */
 
-  /* ----------- TASK 4 ----------------
+  /* =========== TASK 4 ===========
    * You created a fourth ball before. Change the patterns below to move and draw your fourth ball.
    * If you can, switch to using a loop to move them and draw them.
    */
@@ -88,7 +88,7 @@ function draw() {
   ball[2].draw(); // draw ball3
 }
 
-/* -------------- TASK 5 - Exploring Ball Objects------------------
+/* ===========  TASK 5 - Exploring Ball Objects =============
  * Before we examine the ball *class* and see how ball objects are created
  * let's explore them in a console environment. To do that, follow these steps:
  *
@@ -102,13 +102,13 @@ function draw() {
  *    Each time you click it the code will continue, but then pause again when it hits your breakpoint.
  * 5) You can now hover over the word `ball` and `ball3` and get information about the
  *    ACTUAL CURRENT STATE of the balls.
- * 6) Type "ball[0].x" in the debug console. What do you get?
+ * 6) Type `ball[0].x` in the debug console. What do you get?
  *
  *
- * 6) Type "ball[3].col" in the debug console. What do you get?
+ * 7) Type `ball[3].col` in the debug console. What do you get?
  *
  *
- * 7) Go back to the line above and remove the break point, then continue the code with the blue play button.
+ * 8) Go back to the line above and remove the break point, then continue the code with the blue play button.
  *
  * Now that you see how to create new Ball objects and make them move (add a fifth ball if you want!)
  * You should be ready to look at the code used to CREATE the ball objects.

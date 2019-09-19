@@ -87,16 +87,14 @@ export class Ball {
   /* ========= TASK 2 ==========
    * Edit the constructor function so that it has a new parameter (at the end), `borderColor`,
      with a default value of black and correctly updates the borderColor property
-     of the ball object when it runs.
+     of the ball object when it runs. Update the documentatino at the same time.
   */
 
-  /** This method moves the ball. If the ball is on the edge, it reverses
+  /** This method  below moves the ball. If the ball is on the edge, it reverses
    * the speed property so the ball will bounce.
    */
-
-  // Note: if you don't understand all the math of this right now, don't worry about it.
-
   public move(): void {
+    // don't worry about the math here unless you want
     this.y = this.y + this.speedY;
     this.x = this.x + this.speedX;
     if (this.onXEdge()) {
@@ -123,12 +121,13 @@ export class Ball {
    */
 
   /* ========= TASK 4 ============
-   * Go back to sketch.ts and modify ball3 (when it is made) so that its border color is purple.
+   * Go back to sketch.ts and modify ball[2] (when it is made) so that its border color is purple.
    * Then look at the built website. Did it work?
    */
 
-  /** This private method determines if a ball is on the edge of the screen vertically.
+  /** This PRIVATE method determines if a ball is on the edge of the screen vertically.
    *  You do not need to understand it right now, other than that it returns a boolean.
+   *  You CAN'T access this method outside of this class!
    */
   private onYEdge(): boolean {
     if (this.y <= this.size / 2 || this.y >= height - this.size / 2) {

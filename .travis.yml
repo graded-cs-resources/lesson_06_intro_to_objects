@@ -7,8 +7,7 @@ cache:
 before_install:
   - npm i -g typescript
 before_deploy:
-  - ls
-  - mv .gitignore .gitignore_old
+  - rm .gitignore
 deploy:
   provider: pages
   skip_cleanup: true
