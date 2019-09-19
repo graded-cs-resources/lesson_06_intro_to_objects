@@ -1,6 +1,6 @@
 # Introducing p5js and Objects
 
-Before doing this assignment, do the reading on "Introducing Objects and Classs" in our textbook.
+As you work on this assignment, you should also refer to the [notes in our textbook](https://graded-cs-resources.github.io/IB-Computer-Science-Notes/unit2/01_Programming_with_objects.html).
 
 ## Getting your code
 
