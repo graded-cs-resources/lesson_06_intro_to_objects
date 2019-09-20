@@ -1,0 +1,8 @@
+tasks:
+ - init: npm install
+   command: npm run gitpod-build-and-serve
+ports:
+ - port: 3000
+   onOpen: open-preview
+ - port: 3001
+   onOpen: ignore

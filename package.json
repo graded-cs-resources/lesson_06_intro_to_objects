@@ -1,0 +1,31 @@
+{
+  "name": "p5js_starter_with_intellisense",
+  "version": "1.0.0",
+  "description": "In this project you can play with the [p5js](p5js.org) library. This library makes it very easy to create and draw on *drawing canvases* on web pages. You can read more about it at p5js.org.",
+  "main": "build/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/p5": "^0.9.0",
+    "browser-sync": "^2.26.7",
+    "npm-run-all": "^4.1.5",
+    "tslint": "^5.20.0"
+  },
+  "scripts": {
+    "test": "tsc --build tsconfig.json -v",
+    "vscode-serve": "browser-sync -f *.html -f *.js",
+    "gitpod-serve": "browser-sync -f *.html -f *.js --no-ui --no-open --listen 0.0.0.0",
+    "tsc-watch": "tsc --watch",
+    "gitpod-build-and-serve": "npm-run-all --parallel tsc-watch gitpod-serve",
+    "vscode-build-and-serve": "npm-run-all --parallel tsc-watch vscode-serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graded-cs-resources/p5js-starter-with-typings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graded-cs-resources/p5js-starter-with-typings/issues"
+  },
+  "homepage": "https://github.com/graded-cs-resources/p5js-starter-with-typings#readme"
+}
