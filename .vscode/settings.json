@@ -11,10 +11,10 @@
     "tslint.json": true,
     "node_modules": true,
     ".gitignore": true,
-    "package.json": true,
     "tsconfig.json": true,
     ".travis.yml": true,
-    "out": true
+    "out": true,
+    "package.json": true
   },
   "liveServer.settings.port": 3000,
   "files.autoSave": "onFocusChange",
