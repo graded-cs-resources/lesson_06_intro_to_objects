@@ -10,7 +10,7 @@ The code that is actually *ours* is found inside the `app` subdirectory. Make su
 
 ## Setting up
 
-Before the code will work, you need to run `npm install` for the project. You can do this using the integrated command line in VS Code OR you can use the `Terminal->Tasks` menu and find the `npm: install` task.
+Before the code will work, you need to run `npm install` for the project. You can do this using the integrated command line in VS Code OR you can use the `Terminal->Run Task` menu and find the `npm: install` task.
 
 ## Running the code
 
