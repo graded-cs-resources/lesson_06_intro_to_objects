@@ -6,7 +6,8 @@
     {
       "type": "shell",
       "label": "npm install (run first!)",
-      "command": "npm install"
+      "command": "npm install",
+      "problemMatcher": []
     },
     {
       "type": "shell",
