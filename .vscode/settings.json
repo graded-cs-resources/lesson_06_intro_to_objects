@@ -13,8 +13,8 @@
     ".travis.yml": true,
     "out": true,
     "package.json": true,
-    "tslint.json": true,
-    ".vscode": true
+    ".vscode": true,
+    "tslint.json": true
   },
   "liveServer.settings.port": 3000,
   "files.autoSave": "onFocusChange",
