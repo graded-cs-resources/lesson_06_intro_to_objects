@@ -7,19 +7,16 @@
     "src\\global.d.ts": true,
     "favicon.ico": true,
     ".eslintrc.js": true,
-    ".vscode": true,
-    "tslint.json": true,
     "node_modules": true,
     ".gitignore": true,
     "tsconfig.json": true,
     ".travis.yml": true,
     "out": true,
-    "package.json": true
+    "package.json": true,
+    "tslint.json": true,
+    ".vscode": true
   },
   "liveServer.settings.port": 3000,
   "files.autoSave": "onFocusChange",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
-  },
   "editor.formatOnSave": true
 }

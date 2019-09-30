@@ -25,7 +25,7 @@ import { Ball } from "./modules/ball.js";
  */
 
 /** Global array of Ball objects */
-const ball: Ball[] = [];
+let ball: Ball[] = [];
 
 function setup() {
   createCanvas(640, 480); // creates a drawing canvas 640 px wide and 480 tall.
