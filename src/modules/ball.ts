@@ -29,14 +29,14 @@ export class Ball {
   /** ball's diameter in pixels */
   public size: number;
   /** color of the ball. Can be any acceptable color string. */
-  public col: p5.Color; // default value
+  public col: p5.Color;
   /** speed in x direction of the ball. */
   public speedX: number;
   /** speed in y direction of the ball. positive is DOWN. */
   public speedY: number;
 
   /* ============ TASK 1 ============
-   * Add a new public property of type string called 'borderColor'
+   * Add a new public property of type p5.Color called 'borderColor'
    * Add a comment to document that it represents the color of the ball's border.
    */
 
